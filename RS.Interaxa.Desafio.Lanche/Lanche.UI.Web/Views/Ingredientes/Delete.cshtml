@@ -1,0 +1,42 @@
+﻿@model Lanche.Application.ViewModels.IngredienteVM
+
+@{
+    ViewData["Title"] = "";
+}
+
+<h2>Excluir Ingrediente - Código: @Model.Id</h2>
+<hr />
+<div class="row">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <a asp-action="Index" class="btn btn-default">
+                <span class="glyphicon glyphicon-triangle-left"></span> Voltar para Lista
+            </a>
+            <button type="submit" class="btn btn-lanche">
+                <span class="glyphicon glyphicon-trash"></span> Excluir
+            </button>
+        </div>
+    </form>
+</div>

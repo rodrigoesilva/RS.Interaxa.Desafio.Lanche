@@ -1,0 +1,106 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+/*
+    claro #cbbde2
+    escuro #8650A0
+*/
+
+.btn-lanche {
+    color: #fff;
+    background-color: #8650A0;
+    border-color: #cbbde2;
+}
+
+    .btn-lanche:focus,
+    .btn-lanche.focus {
+        color: #fff;
+        background-color: #cbbde2;
+        border-color: #8650A0;
+    }
+
+    .btn-lanche:hover {
+        color: #8650A0;
+        background-color: #cbbde2;
+        border-color: #8650A0;
+    }
+
+    .btn-lanche:active,
+    .btn-lanche.active,
+    .open > .dropdown-toggle.btn-lanche {
+        color: #8650A0;
+        background-color: #cbbde2;
+        border-color: #8650A0;
+    }
+
+        .btn-lanche:active:hover,
+        .btn-lanche.active:hover,
+        .open > .dropdown-toggle.btn-lanche:hover,
+        .btn-lanche:active:focus,
+        .btn-lanche.active:focus,
+        .open > .dropdown-toggle.btn-lanche:focus,
+        .btn-lanche:active.focus,
+        .btn-lanche.active.focus,
+        .open > .dropdown-toggle.btn-lanche.focus {
+            color: #333;
+            background-color: #d4d4d4;
+            border-color: #8c8c8c;
+        }
+
+    .btn-lanche:active,
+    .btn-lanche.active,
+    .open > .dropdown-toggle.btn-lanche {
+        background-image: none;
+    }
+
+    .btn-lanche.disabled:hover,
+    .btn-lanche[disabled]:hover,
+    fieldset[disabled] .btn-lanche:hover,
+    .btn-lanche.disabled:focus,
+    .btn-lanche[disabled]:focus,
+    fieldset[disabled] .btn-lanche:focus,
+    .btn-lanche.disabled.focus,
+    .btn-lanche[disabled].focus,
+    fieldset[disabled] .btn-lanche.focus {
+        background-color: #fff;
+        border-color: #ccc;
+    }
+
+    .btn-lanche .badge {
+        color: #fff;
+        background-color: #333;
+    }

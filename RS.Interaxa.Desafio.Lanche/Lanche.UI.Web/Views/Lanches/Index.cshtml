@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Lanche.Application.ViewModels.LancheVM >
+
+@{
+    ViewData["Title"] = "";
+}
+
+    <h2>Listagem de Lanches</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-lanche">
+        <span class="glyphicon glyphicon-plus"></span> Cadastrar Lanche
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataCadastro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Preco)
+                </th>
+                <th class="text-center">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataCadastro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td style="text-align:center">
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td style="text-align:center">
+                <a asp-action="Edit" asp-route-id="@item.Id" title="Editar" class="btn btn-default"><span class="glyphicon glyphicon-edit"></span></a> |
+                <a asp-action="Details" asp-route-id="@item.Id" title="Detalhes" class="btn btn-default"><span class="glyphicon glyphicon-eye-open"></span></a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" title="Excluir" class="btn btn-default"><span class="glyphicon glyphicon-trash"></span></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
