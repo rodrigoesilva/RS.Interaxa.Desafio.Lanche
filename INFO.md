@@ -12,7 +12,7 @@ Esse desafio faz parte do processo seletivo da Mutant - Interaxa para a vaga _[v
 
 - A seguir, apresentamos a lista de informações disponíveis:
 
-###### Banco de Dados
+#### Banco de Dados
 *As informações solicitadas foram criadas em um Banco de Dados SQL Server e para tal foram adicionados os scripts de execução de criação e população de dados [aqui](./bdscript.sql).
 
 - SQL Server Management Studio	15.0.18330.0
@@ -33,7 +33,7 @@ Esse desafio faz parte do processo seletivo da Mutant - Interaxa para a vaga _[v
 - sp_Promocoes_ById
 - sp_Promocoes_ListAll
 
-###### Aplicação
+#### Aplicação
 *As informações solicitadas foram criadas utilizando o ambiente de desenvolvimento Microsoft Visual Studio v2019.
 
 Seguind o contexto solicitado, fora desenvolvida uim aplaicação MVC .Net Core 2.0, com conceitos de camadas ( DDD ) e com implementações de bibliotecas jQuery e Bootstrap.
