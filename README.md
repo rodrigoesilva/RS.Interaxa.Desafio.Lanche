@@ -6,9 +6,9 @@
 
 ## Descrição
 
-Esse desafio faz parte do processo seletivo da Mutant - Interaxa para a vaga _[v2064385 - Desenvolvedor .NET SENIOR (Lider Técnico)](https://www.linkedin.com/jobs/view/1833901743/ e o teste ajudará a avaliar melhor o raciocínio lógico e a qualidade do seu código.
+Esse desafio faz parte do processo seletivo da Mutant - Interaxa para a vaga _[v2064385 - Desenvolvedor .NET SENIOR - Lider Técnico](https://www.linkedin.com/jobs/view/1833901743/ e o teste ajudará a avaliar melhor o raciocínio lógico e a qualidade do seu código.
 
-O desafio consiste em duas partes: uma aplicação Front-end e uma solução Back-end. A descrição com os requisitos estão descritas no Cénario abaixo.
+O desafio consiste em duas partes: uma aplicação Front-end e uma solução Back-end. A descrição com os requisitos estão descritas no Cénario abaixo e tambem [aqui](./INFO.md).
 
 ## Cenário
 
